@@ -1,0 +1,37 @@
+/* Courses section*/
+/* ================ */
+.package .amount{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    font-size: 2rem;
+    padding: .5rem 1rem;
+    background: var(--lemongreen);
+    color: #fff;
+    border-radius: .5rem;
+}
+
+.package .stars i{
+    color: var(--watergreen);
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.package .icons{
+    display: flex;
+    border-top: .1rem solid rgba(0,0,0,.1);
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding: .5rem;
+    padding-top: 1rem;
+}
+
+.package .icons p{
+    color: #0a4e27;
+    font-size: 1.3rem;
+}
+
+.package .icons p i{
+    color: var(--lemongreen);
+    padding-right: .4rem;
+}

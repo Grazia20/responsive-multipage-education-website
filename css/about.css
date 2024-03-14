@@ -1,0 +1,32 @@
+/* About section*/
+
+.about .title img {
+    width:20%;
+    object-fit: cover;
+    position: relative;
+    float: right;
+}
+
+.about .boxes-about {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about .boxes-about .box{
+    width: calc(50%); 
+    padding: 5rem;
+    color: #333;
+    display: inline-block;
+    position: relative;
+    transition: 0.3s ease; 
+}
+
+.about .boxes-about .box h4{
+    font-size: 15px;
+    padding-bottom: .4rem;
+}
+
+.about .boxes-about .box:hover {
+    background-color: rgba(98, 255, 166, 0.8);
+}
+

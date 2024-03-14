@@ -1,0 +1,16 @@
+/* Teachers section */
+
+.package .share a{
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    font-size: 2rem;
+    background: var(--lemongreen);
+    border-radius: .5rem;
+    margin: .3rem;
+    color: #fff;
+}
+
+.package .share a:hover{
+    background-color: aquamarine;
+}

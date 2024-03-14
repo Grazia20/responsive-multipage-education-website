@@ -1,0 +1,39 @@
+/* Review section*/
+
+
+.package .student{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.package .student i{
+    font-size: 6rem;
+    color: var(--lemongreen);
+    opacity: .5;
+}
+
+.package .student .student-info{
+    display: flex;
+    align-items: center;
+}
+
+.package .student .student-info img{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 7rem;
+    width: 7rem;
+    margin-right: 1.5rem;
+}
+
+.package .student .student-info h3 {
+    font-size: 2rem;
+    color: #0a4e27;
+}
+
+.package .text{
+    padding: 1rem 0;
+    font-size: 1.7rem;
+    color: #0a4e27;
+}
+

@@ -1,0 +1,25 @@
+/* Pricing section*/
+/* ============================== */
+.package .amount-price{
+    font-size: 4.5rem;
+    color: #fff;
+    padding: 1rem 0;
+    background: var(--gradient);
+    font-weight: bold;
+}
+
+.package .amount-price span{
+    font-size: 2rem;
+}
+
+.package ul{
+    border-bottom: .1rem solid rgba(0,0,0,.1);
+    padding: 1rem 0;
+    list-style: none;
+}
+
+.package ul li{
+    padding: .7rem 0;
+    font-size: 1.5rem;
+    color: #0a4e27;
+}
